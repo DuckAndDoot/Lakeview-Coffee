@@ -3,6 +3,9 @@ body {
     padding: 0px;
     background-color: #fffaf4;
 }
+hr {
+    color: white;
+}
 .nav-bar {
     
 }
@@ -18,18 +21,30 @@ body {
     margin: 80px 80px 0px 80px;
 }
 .thumbnail {
-    background-color: brown;
-    padding
+    background-color: #997552;
+    padding: 40px 0px;
 }
 .introduction {
     margin-left: 60%;
     border: solid white;
-    padding: 20px 16px;
-    width: 30%;
+    padding: 20px 24px;
+    width: 20%;
 }
 .sub-introduction {
     color: white;
+    width: 80%;
+    margin: auto;
 }
 .size-24 {
     font-size: 24px;
+}
+.main-headline {
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sub-headline {
+    display: flex;
+    justify-content: center;
 }
