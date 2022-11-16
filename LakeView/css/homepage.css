@@ -18,9 +18,8 @@ body {
     margin: 80px 80px 0px 80px;
 }
 .thumbnail {
-    background-color: brown;
-    padding
-}
+    background-color: #997552;
+} 
 .introduction {
     margin-left: 60%;
     border: solid white;
@@ -32,4 +31,22 @@ body {
 }
 .size-24 {
     font-size: 24px;
+}
+
+.main-headline {
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-headline {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-introduction {
+    color: white;
+    width: 80%;
+    margin: auto;
 }
