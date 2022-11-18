@@ -3,40 +3,52 @@ body {
     padding: 0px;
     background-color: #fffaf4;
 }
+
 hr {
     color: white;
 }
-.nav-bar {
-    
+
+.brand {
+    color: black;
 }
+
 .menu {
     margin: 16px 16px;
 }
+
 .selection {
     display: flex;
+    justify-content: space-evenly;
 }
+
+
 .contact {
     display: flex;
     justify-content: space-between;
     margin: 80px 80px 0px 80px;
 }
+
 .thumbnail {
     background-color: #997552;
+    background-image: url(https://www.gurutto-hanoi.com/db_img/site_img/images/b289bebcd34d1d702e4d275b23aa552a.jpg);
     padding: 40px 0px;
 } 
-    
+     
 
 .introduction {
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 60%;
     border: solid white;
     padding: 20px 24px;
     width: 20%;
 }
+
 .sub-introduction {
     color: white;
     width: 80%;
     margin: auto;
 }
+
 .size-24 {
     font-size: 24px;
 }
@@ -53,13 +65,7 @@ hr {
     justify-content: center;
 }
 
-.sub-introduction {
-    color: white;
-    width: 80%;
-    margin: auto;
+.sub-article {
+    box-sizing: border-box;
 }
 
-    .sub-headline {
-    display: flex;
-    justify-content: center;
-}
