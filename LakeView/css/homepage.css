@@ -23,12 +23,11 @@ body {
     border: none;
 }
 
-
-
 .contact {
     display: flex;
     justify-content: space-between;
-    margin: 80px 80px 0px 80px;
+    margin: 80px 80px 16px 80px;
+    padding: 0px 60px;
 }
 
 .thumbnail {
