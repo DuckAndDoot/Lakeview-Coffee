@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fffaf4;
+}
+
+.Signature {
+    background-color: #997552;
+    padding: 5px 10px;
+    width: 50%;
+    height: 50%;
+}
