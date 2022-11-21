@@ -164,12 +164,12 @@ body {
     .menu-button {
         font-size: 16px;
     }
+    .article {
+        display: block;
+        margin: auto;
+    }
 }
 
-/* Extra Small Devices, Phones */
-
-
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
     .introduction {
         margin: auto;
