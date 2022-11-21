@@ -6,11 +6,20 @@ body {
 
 .brand {
     color: black;
+    
 }
 
-.Brandname {
+.half-selection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Brandname {
     display: flex;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
 }
 
 .menu {
@@ -28,12 +37,15 @@ body {
     border: none;
 }
 
-
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #d3905f; 
+}
 
 .contact {
     display: flex;
     justify-content: space-between;
-    margin: 80px 80px 0px 80px;
+    margin: 20px 80px 20px 80px;
 }
 
 .thumbnail {
@@ -69,6 +81,7 @@ body {
     background-color: rgba(59, 44, 44, 0.545);
     border-color: white;
     padding: 8px 24px;
+    border-radius: 10px;
 }
 
 .size-32 {
@@ -117,8 +130,107 @@ body {
     font-size: 20px;
     margin: 12px 0px;
 }
- 
+
+.address {
+    font-size: 24px;
+}
+
+.telephone {
+    font-size: 24px;
+}
+
 .list-list {
     margin: 12px 0px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .introduction {
+        margin-left: 48%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .introduction {
+        margin: auto;
+    }
+    .telephone {
+        font-size: 20px;
+    }
+    .address {
+        font-size: 20px;
+    }
+    .menu-button {
+        font-size: 16px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+    .introduction {
+        margin: auto;
+        border: solid white;
+        padding: 20px 24px;
+        width: 320px;
+        font-size: 16px;
+    }
+    .menu-button {
+        font-size: 12px;
+    }
+    .size-32 {
+        font-size: 24px;
+    }
+    .size-28 {
+        font-size: 20px;
+    }
+    .main-headline {
+        margin-top: 10px;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+    }
+    .sub-headline {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .article {
+        display: block;
+    }
+    .sub-article {
+        padding: 16px 4px;
+    }
+    .telephone {
+        font-size: 12px;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .menu {
+        margin: 16px 0px;
+    }
+    .container {
+        padding: 0px;
+    }
+    #Brandname {
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+    }
+    #cup-of-coffee1 {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .article {
+        display: block;
+    }
 }
