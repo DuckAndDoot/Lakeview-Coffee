@@ -31,10 +31,14 @@ hr {
 
 .thumbnail {
     background-color: #997552;
-    background-image: url(https://www.gurutto-hanoi.com/db_img/site_img/images/b289bebcd34d1d702e4d275b23aa552a.jpg);
+    background-image: url(./thumbnail1.jpg);
     padding: 40px 0px;
 } 
      
+.button {
+    margin: auto;
+    
+}
 
 .introduction {
     font-family: 'Times New Roman', Times, serif;
